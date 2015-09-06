@@ -10,3 +10,8 @@ Renames files to "[RvR] - [Map] - [Player1], [Player2].SC2Replay"
 * Extract Lib folder of Python source https://www.python.org/downloads/release/python-2710/ to Debug/Lib
 
 * NUGet should arrange IronPython to be installed with the VS Solution (if it doesn't load automatically, go to Tools -> Extensions and Updates -> Click on the RESTORE button in the top right of the window)
+
+
+### Binaries
+
+* [v1](https://www.dropbox.com/s/dnxgruya3vgc5rt/ReplaysOfTheVoid_v1.zip?dl=0)
