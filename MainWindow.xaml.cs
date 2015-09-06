@@ -63,6 +63,7 @@ namespace replaysofthevoid
 
             // we can now rename then
             btnRenameAll.IsEnabled = true;
+            btnInvertCheckboxes.IsEnabled = true;
         }
 
         /// <summary>
@@ -94,6 +95,18 @@ namespace replaysofthevoid
             }
 
             MessageBox.Show("Replays renamed: " + renamecount.ToString());
+        }
+
+        private void btnInvertCheckboxes_Click(object sender, RoutedEventArgs e)
+        {
+            gridReplays.ItemsSource = null;
+
+            foreach (var replay in CurrentReplayList)
+            {
+                replay.dorename = !replay.dorename;
+            }
+
+            gridReplays.ItemsSource = CurrentReplayList.OrderBy(o => o.replaydate).ToList();
         }
     }
 }

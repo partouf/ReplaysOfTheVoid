@@ -10,5 +10,6 @@
         <TextBox x:Name="edReplayPath" Margin="10,10,94,0" TextWrapping="Wrap" Text="" Height="20" VerticalAlignment="Top"/>
         <DataGrid x:Name="gridReplays" Margin="10,35,10,38"/>
         <Button x:Name="btnRenameAll" Content="Rename selected" Margin="0,0,10,10" HorizontalAlignment="Right" Width="120" Height="20" VerticalAlignment="Bottom" IsEnabled="False" Click="btnRenameAll_Click"/>
+        <Button x:Name="btnInvertCheckboxes" Content="Invert checkboxes" HorizontalAlignment="Left" Margin="10,0,0,10" Width="112" Height="20" VerticalAlignment="Bottom" Click="btnInvertCheckboxes_Click" IsEnabled="False"/>
     </Grid>
 </Window>
