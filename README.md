@@ -5,6 +5,8 @@ Renames files to "[RvR] - [Map] - [Player1], [Player2].SC2Replay"
 
 ### Requirements to build
 
+* Minimum VS Express 2013 for Desktop
+
 * Extract contents of https://github.com/partouf/s2protocol to Debug/BlizzLibs
 
 * Extract Lib folder of Python source https://www.python.org/downloads/release/python-2710/ to Debug/Lib
