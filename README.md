@@ -1,6 +1,7 @@
 # ReplaysOfTheVoid
 Replay renamer for LotV replays
 
+Renames files to "[RvR] - [Map] - [Player1], [Player2].SC2Replay"
 
 ### Requirements to build
 
