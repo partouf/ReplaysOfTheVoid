@@ -16,4 +16,6 @@ Renames files to "[RvR] - [Map] - [Player1], [Player2].SC2Replay"
 
 ### Downloads
 
+* [v1.1](https://www.dropbox.com/s/liogiqlquzw4x9n/ReplaysOfTheVoid_v1_1.zip?dl=0) (latest version)
+
 * [v1](https://www.dropbox.com/s/dnxgruya3vgc5rt/ReplaysOfTheVoid_v1.zip?dl=0)
