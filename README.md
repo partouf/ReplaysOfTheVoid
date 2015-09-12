@@ -1,5 +1,5 @@
 # ReplaysOfTheVoid
-Replay renamer for LotV replays
+Replay renamer for LotV replays (also HotS replays, but who cares about those!)
 
 Can rename replay files to a custom format (example: "[RvR] - [Map] - [Player1], [Player2].SC2Replay")
 
