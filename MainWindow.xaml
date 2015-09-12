@@ -1,15 +1,19 @@
-﻿<Window x:Name="frmMain" x:Class="replaysofthevoid.MainWindow"
+﻿<Window x:Name="frmMain" x:Class="ReplaysOfTheVoid.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Replays of the Void" Height="465" Width="962">
+        Title="Replays of the Void" Height="472" Width="919">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button Content="Parse" Margin="0,10,10,0" VerticalAlignment="Top" Click="Button_Click" HorizontalAlignment="Right" Width="75"/>
-        <TextBox x:Name="edReplayPath" Margin="10,10,94,0" TextWrapping="Wrap" Text="" Height="20" VerticalAlignment="Top"/>
-        <DataGrid x:Name="gridReplays" Margin="10,35,10,38"/>
+        <Label Content="Folder" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="edReplayPath" Margin="58,10,94,0" TextWrapping="Wrap" Text="" Height="20" VerticalAlignment="Top"/>
+        <Button x:Name="btnParse" Content="Parse" Margin="0,10,10,0" VerticalAlignment="Top" Click="btnParse_Click" HorizontalAlignment="Right" Width="75"/>
+        <Label Content="Format" HorizontalAlignment="Left" Margin="10,34,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="edFormat" Height="23" Margin="58,34,94,0" TextWrapping="Wrap" Text="[RACE1]v[RACE2] - [MAP] - [PLAYER1], [PLAYER2]" VerticalAlignment="Top" VerticalScrollBarVisibility="Disabled" VerticalContentAlignment="Center"/>
+        <DataGrid x:Name="gridReplays" Margin="10,62,10,38"/>
         <Button x:Name="btnRenameAll" Content="Rename selected" Margin="0,0,10,10" HorizontalAlignment="Right" Width="120" Height="20" VerticalAlignment="Bottom" IsEnabled="False" Click="btnRenameAll_Click"/>
         <Button x:Name="btnInvertCheckboxes" Content="Invert checkboxes" HorizontalAlignment="Left" Margin="10,0,0,10" Width="112" Height="20" VerticalAlignment="Bottom" Click="btnInvertCheckboxes_Click" IsEnabled="False"/>
+        <ProgressBar x:Name="pbMain" Height="23" Margin="127,0,135,8" VerticalAlignment="Bottom"/>
     </Grid>
 </Window>
